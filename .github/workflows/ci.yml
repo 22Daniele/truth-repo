@@ -12,4 +12,4 @@ jobs: # Jobs composing the workflow, each one will run on a different runner
               distribution: 'temurin' # See 'Supported distributions' for available options
               java-version: '25'
           - name: gradle
-            run: ./gradlew clean build
+            run: ./gradlew build
