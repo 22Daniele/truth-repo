@@ -2,7 +2,7 @@ name: continuous-integration
 on: 
   push: 
 jobs: # Jobs composing the workflow, each one will run on a different runner
-    Job-Name: # Every job must be named
+    CI: # Every job must be named
         # The type of runner executing the job, usually the OS
         runs-on: ubuntu-latest
         steps:
